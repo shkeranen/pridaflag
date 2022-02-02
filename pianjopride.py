@@ -1,14 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[57]:
-
 
 import turtle
 import time
 
 
-# In[58]:
 
 
 #näyttö
@@ -19,13 +16,10 @@ screen.bgcolor("white")
 screen.title("Seuratkaa Najsparia!")
 
 
-# In[59]:
-
 
 oogway = turtle.Turtle()
 
 
-# In[60]:
 
 
 #Määritellään kilpparin vauhti
@@ -35,15 +29,11 @@ oogway.penup()
 oogway.shape("turtle")
 
 
-# In[61]:
-
 
 #Lipun korkeus ja leveys
 flag_height = 650
 flag_width = 475
 
-
-# In[62]:
 
 
 #Kilpparin aloituskohta
@@ -51,15 +41,11 @@ start_x = -237
 start_y = 125
 
 
-# In[63]:
-
 
 #Raitojen korkeudet ja pituudet
 stripe_height = flag_height/13
 stripe_width = flag_width
 
-
-# In[64]:
 
 
 #Mihin lippu tulee ja miten neliö täytetään
@@ -81,8 +67,6 @@ def piirrä_lippu(x,y,height,width,color):
     oogway.penup()
 
 
-# In[65]:
-
 
 #Tehdäänpäs sitten ne raidat
 
@@ -100,8 +84,6 @@ def piirrä_raidat():
         y = y - stripe_height
 
 
-# In[ ]:
-
 
 #Aloitus aika
 time.sleep(5)
@@ -111,10 +93,6 @@ piirrä_raidat()
 oogway.hideturtle()
 #ikkuna auki
 screen.mainloop()
-
-
-# In[ ]:
-
 
 
 
