@@ -7,3 +7,5 @@ Couple notes:
 - This article gave me an idea to try pride flag and the code is modified accordingly.
 
 Fun, quick project to do!
+
+
